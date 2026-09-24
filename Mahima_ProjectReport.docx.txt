@@ -1,0 +1,19 @@
+# Superstore Sales Data Analytics Project
+
+## Project Overview
+This project performs an Exploratory Data Analysis (EDA) on retail sales transactions using the official Kaggle dataset downloaded via `kagglehub`. The objective is to analyze customer shipping preferences and product category demand to extract actionable operational insights.
+
+## Dataset Details
+* **Dataset Source**: Kaggle (`ismatkhan121/supermarket-sales-dataset` / Superstore Dataset)
+* **Data Retrieval**: Programmatically fetched via `kagglehub.dataset_download()`
+* **Key Attributes**: Order ID, Order Date, Ship Mode, Customer ID, Segment, Region, Category, Sub-Category, Product Name, Sales.
+
+## Technologies Used
+* **Language**: Python 3.10+
+* **Library Dependencies**: `kagglehub`, `pandas`, `matplotlib`, `seaborn`
+* **Environment**: Google Colab / Jupyter Notebook
+
+## Setup & Execution Instructions
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
